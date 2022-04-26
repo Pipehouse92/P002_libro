@@ -1,0 +1,99 @@
+body{
+	background-image:url("../assets/fondo6.jpg");
+    background-size: cover;
+    /*background-color: black;*/
+}
+
+/*FUENTES DE TEXTO*/
+@font-face{
+font-family:Amatic;
+src: url(../fonts/AmaticSC-Bold.ttf);
+}
+.fuente1{
+	font-family: Amatic;
+}
+
+@font-face{
+font-family:Banger;
+src: url(../fonts/Bangers-Regular.ttf);
+}
+.fuente2{
+	font-family:Banger;
+}
+
+@font-face{
+	font-family:Flower;
+	src: url(../fonts/IndieFlower-Regular.ttf);
+	}
+	.fuente3{
+		font-family:Flower;
+	}
+/*-------------------*/
+
+#portada, #contra{
+text-align: center;
+/*background-color:#F7D358;*/
+/*background-image:url("../assets/portada4.jpg");
+background-size: cover;*/
+/*background-color: #3483eb;*/
+border: 12px solid #0d3563 ;
+background: rgb(173,255,246);
+background: linear-gradient(90deg, rgba(173,255,246,0.927608543417367) 0%, rgba(82,172,218,1) 50%, rgba(100,149,238,0.8631827731092436) 100%);
+padding: 20px;
+height: 500px;
+}
+
+li{
+	padding: 2px;
+}
+
+.pagina{
+	padding: 30px;
+	height: 540px;
+}
+
+.pagina ul li{
+	font-size: 20px;
+}
+
+.pagina1{
+	height: 540px;
+}
+
+.pagina1 img{
+	position: relative;
+	top: 35px;
+	width: 350px;
+	height: 345px;
+	border: 10px solid white;
+}
+
+.colorpag1{
+/*background-color: rgb(189, 188, 188);*/
+background-color: black;
+}
+
+.colorpag2{
+background-color:white;
+}
+
+
+.b-wrap .b-counter{
+	background-color: #02acf5;
+	/*margin-left: 40%;
+	margin-right: 40%;*/
+	color: #fff;
+}
+
+#wrapper{
+	padding-top: 40px;
+}
+
+#gotopage{
+	text-align: center;
+}
+
+#in_go{
+	width: 40px;
+	margin-right: 10px;
+}
